@@ -1,12 +1,8 @@
 ﻿using Model;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
-using ViewModel;
+using static Model.Mediator;
 
 namespace ViewModel {
     public class MainWindowViewModel : INotifyPropertyChanged {
@@ -142,10 +138,7 @@ namespace ViewModel {
         }
 
         public bool CanSubmit(object parameter) {
-            //if (((Coordinates.Latitude as object) != null && (Coordinates.Longitude as object) != null) ^ Region != null)
-                return true;
-            //else
-              //  return false;
+            return true;
         }
     }
 }

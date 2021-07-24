@@ -20,3 +20,27 @@ F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Locati
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Location_Forecast\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Location_Forecast\ViewModel\obj\Debug\ViewModel.dll
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Location_Forecast\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\bin\Debug\Model.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\bin\Debug\Model.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\obj\Debug\ViewModel.csproj.AssemblyReference.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\obj\Debug\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\obj\Debug\ViewModel.csproj.CopyComplete
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Text.Json.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Memory.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Buffers.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\Model.dll.config
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Memory.xml
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Buffers.xml
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\ViewModel.dll.config
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Milos\source\repos\Location-Forecast\ViewModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

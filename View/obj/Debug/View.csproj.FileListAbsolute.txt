@@ -67,3 +67,39 @@ F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v3\Locati
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v3\Location_Forecast\View\obj\Debug\View.csproj.CopyComplete
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v3\Location_Forecast\View\obj\Debug\View.exe
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v3\Location_Forecast\View\obj\Debug\View.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\View\bin\Debug\View.exe.config
+C:\Users\Milos\Source\Repos\Location-Forecast\View\bin\Debug\View.exe
+C:\Users\Milos\Source\Repos\Location-Forecast\View\bin\Debug\View.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\View\bin\Debug\ViewModel.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\View\bin\Debug\Model.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\View\bin\Debug\ViewModel.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\View\bin\Debug\Model.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\MainWindow.g.cs
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\App.g.cs
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View_MarkupCompile.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View_MarkupCompile.lref
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\MainWindow.baml
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.g.resources
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.csproj.CopyComplete
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.exe
+C:\Users\Milos\Source\Repos\Location-Forecast\View\obj\Debug\View.pdb
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Text.Json.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Memory.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Buffers.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\Model.dll.config
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Memory.xml
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Buffers.xml
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\ViewModel.dll.config
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Milos\source\repos\Location-Forecast\View\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

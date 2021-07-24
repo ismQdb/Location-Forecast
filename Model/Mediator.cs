@@ -1,7 +1,9 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Net;
+using System.Text;
 using System.Xml;
+using System.Text.Json;
+using System.IO;
 
 namespace Model {
     public class Mediator {
@@ -15,49 +17,33 @@ namespace Model {
                 json = webClient.DownloadString(requestUrl);
             }
 
-            XmlDocument xmlDocument = JsonConvert.DeserializeXmlNode(json, "type");
-            string xpath = "type/properties/timeseries/data/instant/details/dew_point_temperature";
-            XmlNode xmlNode = xmlDocument.SelectSingleNode(xpath);
-            double dew = Convert.ToDouble(xmlNode.InnerText);
-
-            xpath = "type/properties/timeseries/data/instant/details/relative_humidity";
-            xmlNode = xmlDocument.SelectSingleNode(xpath);
-            double humidity = Convert.ToDouble(xmlNode.InnerText);
-
-            xpath = "type/properties/timeseries/data/instant/details/air_temperature";
-            xmlNode = xmlDocument.SelectSingleNode(xpath);
-            double temp = Convert.ToDouble(xmlNode.InnerText);
-
-            xpath = "type/properties/timeseries/data/instant/details/cloud_area_fraction";
-            xmlNode = xmlDocument.SelectSingleNode(xpath);
-            double cloudAreaFraction = Convert.ToDouble(xmlNode.InnerText);
-
-            return new WeatherPlace(coordinates, dew, humidity, temp, cloudAreaFraction);
+            
         }
         public static Coordinates GetCoordinatesFromString(string region) {
-            // API key dobijen od Google naloga
-            string apiKey = "AIzaSyD1sorRREGD-MvHcYQtKo28UDhAHsuBFNA";
-            string requestUri = string.Format
-                ("https://maps.googleapis.com/maps/api/geocode/xml?key={1}&address={0}&sensor=false", Uri.EscapeDataString(region), apiKey);
-            string xmlFromWebPage = "";
+            StringBuilder formatedRegion = new StringBuilder();
+            string htmlResponse = string.Empty;
 
-            using (WebClient webClient = new WebClient()) {
-                webClient.Headers.Add("user-agent", "Only a test.");
-                xmlFromWebPage = webClient.DownloadString(requestUri);
-            }
+            string[] vs = region.Split(' ');
 
-            XmlDocument xmlDocument = new XmlDocument();
-            xmlDocument.LoadXml(xmlFromWebPage);
+            for (int i = 0; i < vs.Length; ++i)
+                if (i == vs.Length - 1)
+                    formatedRegion.Append(vs[i]);
+                else
+                    formatedRegion.Append($"{vs[i]}+");
 
-            string xpath = "GeocodeResponse/result/geometry/location/lat";
-            XmlNode xmlNode = xmlDocument.SelectSingleNode(xpath);
-            string lat = xmlNode.InnerText;
+            string searchApiString =
+                $"https://nominatim.openstreetmap.org/search?q={formatedRegion}&format=json&limit=1";
 
-            xpath = "GeocodeResponse/result/geometry/location/lng";
-            xmlNode = xmlDocument.SelectSingleNode(xpath);
-            string lng = xmlNode.InnerText;
+            HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(searchApiString);
+            webRequest.AutomaticDecompression = DecompressionMethods.GZip;
+            webRequest.UserAgent = ".NET Framework Test Client!";
 
-            Coordinates coordinates = new Coordinates(Convert.ToDouble(lat), Convert.ToDouble(lng));
+            using (HttpWebResponse response = (HttpWebResponse)webRequest.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+                htmlResponse = reader.ReadToEnd();
+
+            Coordinates coordinates = JsonSerializer.Deserialize<Coordinates>(htmlResponse);
 
             return coordinates;
         }

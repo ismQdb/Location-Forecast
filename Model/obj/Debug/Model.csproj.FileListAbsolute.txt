@@ -16,3 +16,28 @@ F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Locati
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Location_Forecast\Model\obj\Debug\Model.csproj.CopyComplete
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Location_Forecast\Model\obj\Debug\Model.dll
 F:\{ PROJEKTI }\[PROGRAMIRANJE]\C#\Location Forecast\Location_Forecast\v2\Location_Forecast\Model\obj\Debug\Model.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\bin\Debug\Model.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\bin\Debug\Model.pdb
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\obj\Debug\Model.dll
+C:\Users\Milos\Source\Repos\Location-Forecast\Model\obj\Debug\Model.pdb
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\Model.dll.config
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\GeoJSON.Net.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\Nominatim.API.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Buffers.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Memory.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Text.Json.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Buffers.xml
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Memory.xml
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Milos\source\repos\Location-Forecast\Model\bin\Debug\System.Text.Encodings.Web.xml
